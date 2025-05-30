@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #b3d4fc; /* Açık mavi */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-title {
+    cursor: pointer;
+    font-weight: bold;
+    color: #034694; /* Daha koyu mavi */
+}
+
+.navbar-actions button {
+    background-color: #034694;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.navbar-actions span {
+    margin-right: 15px;
+    font-weight: 600;
+}

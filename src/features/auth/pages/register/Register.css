@@ -1,0 +1,32 @@
+/* src/features/auth/pages/register/Register.css */
+.register-bg {
+    min-height: 100vh;
+    background-image: url("../../../../assets/brick-wall--dark--1920x1080.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Dropdown öneri listesini sınırlamak için */
+.list-group.position-absolute {
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+/* Göz ikonu stili */
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    font-size: 1.2rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+

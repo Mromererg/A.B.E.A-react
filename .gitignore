@@ -1,0 +1,17 @@
+# node_modules klasörünü git'e dahil etme
+node_modules/
+
+# build çıktıları
+dist/
+
+# ortam değişkenleri
+.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS ile ilgili dosyalar
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+/* src/features/home/Home.css */
+
+.home-bg {
+    background: url("../../assets/brick-wall--dark--1920x1080.png") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 16px;
+}
+
+footer {
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
